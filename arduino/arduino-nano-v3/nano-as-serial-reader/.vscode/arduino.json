@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:nano",
+    "configuration": "cpu=atmega328old",
+    "sketch": "nano-as-serial-reader.ino",
+    "port": "/dev/ttyUSB0"
+}

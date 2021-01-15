@@ -1,0 +1,6 @@
+{
+    "board": "STM32:stm32:Nucleo_144",
+    "sketch": "hello-world.ino",
+    "port": "/dev/ttyACM0",
+    "configuration": "pnum=NUCLEO_F767ZI,upload_method=MassStorage,xserial=generic,usb=none,xusb=FS,opt=ogstd,rtlib=nano"
+}
