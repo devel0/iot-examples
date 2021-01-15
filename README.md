@@ -2,19 +2,23 @@
 
 <!-- TOC -->
 - [iot-examples](#iot-examples)
+  * [description](#description)
   * [quickstart](#quickstart)
   * [arduino](#arduino)
     + [examples](#examples)
-    + [configurations](#configurations)
-      - [board: arduino nano ( framework: arduino )](#board-arduino-nano--framework-arduino-)
+    + [development](#development)
   * [platformio](#platformio)
-    + [examples](#examples-1)
-    + [configurations](#configurations-1)
+    + [examples (mbed)](#examples-mbed)
+    + [development](#development-1)
+    + [configurations](#configurations)
       - [board: nucleo-144 ( framework: mbed )](#board-nucleo-144--framework-mbed-)
   * [stm32duino](#stm32duino)
-    + [examples](#examples-2)
-    + [configurations](#configurations-2)
-      - [board: stm32f103c8](#board-stm32f103c8)
+    + [examples](#examples-1)
+    + [development](#development-2)
+  * [hardware](#hardware)
+    + [arduino nano V3](#arduino-nano-v3)
+    + [nucleo-64 F446RE](#nucleo-64-f446re)
+    + [nucleo-144 F767ZI](#nucleo-144-f767zi)
 <!-- TOCEND -->
 
 ## description
