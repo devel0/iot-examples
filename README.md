@@ -39,11 +39,11 @@ code arduino/ledblink
 ### examples
 
 - arduino nano v3
-    - [ds18b20](arduino/ds18b20)
-    - [ledblink](arduino/ledblink)
-    - [nano-as-serial-reader](arduino/nano-as-serial-reader)
-    - [rotary-encoder](arduino/rotary-encoder)
-    - [signal-gen](arduino/signal-gen)
+    - [ds18b20](arduino/arduino-nano-v3/ds18b20)
+    - [ledblink](arduino/arduino-nano-v3/ledblink)
+    - [nano-as-serial-reader](arduino/arduino-nano-v3/nano-as-serial-reader)
+    - [rotary-encoder](arduino/arduino-nano-v3/rotary-encoder)
+    - [signal-gen](arduino/arduino-nano-v3/signal-gen)
 
 ### development
 
@@ -64,11 +64,11 @@ code arduino/ledblink
 ### examples (mbed)
 
 - bluepill F103C8
-    - [hello-world]()
+    - [hello-world](platformio/bluepill-F103C8/mbed/hello-world)
 - nucleo-64-F446RE
-    - [hello-world]()
+    - [hello-world](platformio/nucleo-64-F446RE/mbed/hello-world)
 - nucleo-144-F767ZI
-    - [hello-world]()
+    - [hello-world](platformio/nucleo-144-F767ZI/mbed/hello-world)
 
 ### development
 
@@ -87,7 +87,12 @@ code arduino/ledblink
 
 ### examples
 
-- [hello-world](stm32duino/hello-world)
+- bluepill F103C8
+    - [hello-world](stm32duino/bluepill-F103C8/hello-world)
+- nucleo-64-F446RE
+    - [hello-world](stm32duino/nucleo-64-F446RE/hello-world)
+- nucleo-144-F767ZI
+    - [hello-world](stm32duino/nucleo-144-F767ZI/hello-world)
 
 ### development
 
