@@ -79,3 +79,7 @@ nbproject
 .clang_complete
 .gcc-flags.json
 .pio
+
+## custom
+
+~*.dxf

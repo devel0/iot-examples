@@ -17,6 +17,13 @@
       - [board: stm32f103c8](#board-stm32f103c8)
 <!-- TOCEND -->
 
+## description
+
+Examples for various
+- boards ( arduino nano, stm32 )
+- frameworks ( arduino, stm32duino, mbed )
+- development environments ( vscode arduino, platformio )
+
 ## quickstart
 
 ```sh
