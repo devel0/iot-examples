@@ -10,8 +10,6 @@
   * [platformio](#platformio)
     + [examples (mbed)](#examples-mbed)
     + [development](#development-1)
-    + [configurations](#configurations)
-      - [board: nucleo-144 ( framework: mbed )](#board-nucleo-144--framework-mbed-)
   * [stm32duino](#stm32duino)
     + [examples](#examples-1)
     + [development](#development-2)
@@ -84,10 +82,6 @@ code arduino/ledblink
 - debug
     - using `printf` output go to monitor ( C-S-p `PlatformIO: Serial Monitor` ) ; it goes over usb cable used for programming to stlink connector
     - through C-S-p `PlatformIO: Start Debugging` ( **currently some trouble about reset** )
-
-### configurations
-
-#### board: nucleo-144 ( framework: mbed )
 
 ## stm32duino
 
