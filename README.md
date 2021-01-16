@@ -159,7 +159,9 @@ note: to open dwg [qcad](https://www.qcad.org/en/download) can be used.
 
 ### nucleo-144 F767ZI
 
+<a href="https://raw.githubusercontent.com/devel0/iot-examples/main/wirings/nucleo144-F767ZI.svg">
 ![](wirings/nucleo144-F767ZI.svg)
+</a>
 
 - [pinout](wirings/nucleo144-F767ZI.dwg)    
 - CPU 216Mhz / SRAM 512KB / EEPROM 0KB / FLASH 2048KB
