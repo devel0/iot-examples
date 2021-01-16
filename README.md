@@ -124,9 +124,7 @@ note: to open dwg [qcad](https://www.qcad.org/en/download) can be used.
 
 ### arduino nano V3
 
-![](wirings/arduino-nano.svg)
-
-- [pinout](wirings/arduino-nano.dwg)    
+- [pinout](https://raw.githubusercontent.com/devel0/iot-examples/main/wirings/arduino-nano.svg)
 - CPU 16Mhz / SRAM 2KB / EEPROM 1KB / FLASH 32KB
 - power supply types
     - USB cable
@@ -141,9 +139,7 @@ note: to open dwg [qcad](https://www.qcad.org/en/download) can be used.
 
 ### nucleo-64 F446RE
 
-![](wirings/nucleo64-F446RE.svg)
-
-- [pinout](wirings/nucleo64-F446RE.dwg)    
+- [pinout](https://raw.githubusercontent.com/devel0/iot-examples/main/wirings/nucleo64-F446RE.svg)
 - CPU 180Mhz / SRAM 128KB / EEPROM 0KB / FLASH 512KB
 - power supply types
     - USB cable (300mA max)
