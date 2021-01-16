@@ -119,8 +119,11 @@ code arduino/ledblink
 
 ## hardware
 
+note: to open dwg [qcad](https://www.qcad.org/en/download) can be used.
+
 ### arduino nano V3
-    
+
+- [pinout](templates/arduino-nano.dwg)    
 - CPU 16Mhz / SRAM 2KB / EEPROM 1KB / FLASH 32KB
 - power supply types
     - USB cable
@@ -133,6 +136,7 @@ code arduino/ledblink
 
 ### nucleo-64 F446RE
 
+- [pinout](templates/nucleo64-F446RE.dwg)    
 - CPU 180Mhz / SRAM 128KB / EEPROM 0KB / FLASH 512KB
 - power supply types
     - USB cable (300mA max)
@@ -146,6 +150,7 @@ code arduino/ledblink
 
 ### nucleo-144 F767ZI
 
+- [pinout](templates/nucleo144-F767ZI.dwg)    
 - CPU 216Mhz / SRAM 512KB / EEPROM 0KB / FLASH 2048KB
 - power supply types
     - USB cable (300mA max)
