@@ -124,6 +124,8 @@ note: to open dwg [qcad](https://www.qcad.org/en/download) can be used.
 
 ### arduino nano V3
 
+![](wirings/arduino-nano.svg)
+
 - [pinout](wirings/arduino-nano.dwg)    
 - CPU 16Mhz / SRAM 2KB / EEPROM 1KB / FLASH 32KB
 - power supply types
@@ -138,6 +140,8 @@ note: to open dwg [qcad](https://www.qcad.org/en/download) can be used.
 - 6 x PWM
 
 ### nucleo-64 F446RE
+
+![](wirings/nucleo64-F446RE.svg)
 
 - [pinout](wirings/nucleo64-F446RE.dwg)    
 - CPU 180Mhz / SRAM 128KB / EEPROM 0KB / FLASH 512KB
@@ -154,6 +158,8 @@ note: to open dwg [qcad](https://www.qcad.org/en/download) can be used.
 - 2 x 12bit DAC
 
 ### nucleo-144 F767ZI
+
+![](wirings/nucleo144-F767ZI.svg)
 
 - [pinout](wirings/nucleo144-F767ZI.dwg)    
 - CPU 216Mhz / SRAM 512KB / EEPROM 0KB / FLASH 2048KB
