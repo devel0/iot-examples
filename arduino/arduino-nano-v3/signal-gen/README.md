@@ -1,13 +1,5 @@
 # iot-arduino-signal-gen
 
-use of [TimerInterrupt](https://github.com/khoih-prog/TimerInterrupt) to generate [fixed freq](https://github.com/devel0/iot-arduino-signal-gen/blob/6192ef57d347c35ecb437ed931b2bdede68d645c/iot-arduino-signal-gen/iot-arduino-signal-gen.ino#L9) duty50% on pin D6
+use of [TimerInterrupt](https://github.com/khoih-prog/TimerInterrupt) to generate [fixed freq](https://github.com/devel0/iot-examples/blob/f759cba72e2c8006ac51bb9e12f64af73c2bbde8/arduino/arduino-nano-v3/signal-gen/signal-gen.ino#L9) duty50% on pin D6
 
-## prerequisites
-
-- [vscode arduino](https://github.com/devel0/knowledge/blob/master/doc/vscode-arduino.md)
-
-## build
-
-- tune `.vscode/c_cpp_properties.json` according to your paths
-- `ctrl+shift+p arduino board config` : Arduno Nano / ATmega328P (Old Bootloader)
-- `ctrl+alt+u` to upload
+- [requirements](https://github.com/devel0/iot-examples#development)

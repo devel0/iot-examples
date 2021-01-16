@@ -21,7 +21,7 @@ use of lcd 16x2 through i2c adapter and rotary encoder to retrieve current posit
 
 <img width=400 src="data/img/rotary-scope-ccw.png"></img>
 
-- [requirements](https://github.com/devel0/iot-examples/blob/0954ccd90758022a0d376a13e122c7f90a0a5e5d/README.md#L48)
+- [requirements](https://github.com/devel0/iot-examples#development)
 
 ## config i2c address
 
