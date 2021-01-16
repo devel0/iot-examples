@@ -1,0 +1,6 @@
+{
+    "board": "STM32:stm32:Nucleo_64",
+    "configuration": "pnum=NUCLEO_F446RE,upload_method=MassStorage,xserial=generic,usb=none,xusb=FS,opt=ogstd,rtlib=nano",
+    "sketch": "dac.ino",
+    "port": "/dev/ttyACM0"
+}

@@ -91,6 +91,7 @@ code arduino/ledblink
     - [hello-world](stm32duino/bluepill-F103C8/hello-world)
 - nucleo-64-F446RE
     - [hello-world](stm32duino/nucleo-64-F446RE/hello-world)
+    - [dac](stm32duino/nucleo-64-F446RE/dac)
 - nucleo-144-F767ZI
     - [hello-world](stm32duino/nucleo-144-F767ZI/hello-world)
 
@@ -123,7 +124,7 @@ note: to open dwg [qcad](https://www.qcad.org/en/download) can be used.
 
 ### arduino nano V3
 
-- [pinout](templates/arduino-nano.dwg)    
+- [pinout](wirings/arduino-nano.dwg)    
 - CPU 16Mhz / SRAM 2KB / EEPROM 1KB / FLASH 32KB
 - power supply types
     - USB cable
@@ -132,11 +133,13 @@ note: to open dwg [qcad](https://www.qcad.org/en/download) can be used.
 - max current
     - I/O pins (40mA)
     - `3.3V` pin (50mA) from CH340
-- 2 hardware interrupt
+- 2 x hardware interrupt
+- 8 x 10bit ADC
+- 6 x PWM
 
 ### nucleo-64 F446RE
 
-- [pinout](templates/nucleo64-F446RE.dwg)    
+- [pinout](wirings/nucleo64-F446RE.dwg)    
 - CPU 180Mhz / SRAM 128KB / EEPROM 0KB / FLASH 512KB
 - power supply types
     - USB cable (300mA max)
@@ -147,10 +150,12 @@ note: to open dwg [qcad](https://www.qcad.org/en/download) can be used.
     - I/O pins (25mA ; total 120mA)
     - `3.3V` pin (240mA)
 - hardware interrupt on all digital pin
+- 3 x 12bit ADC
+- 2 x 12bit DAC
 
 ### nucleo-144 F767ZI
 
-- [pinout](templates/nucleo144-F767ZI.dwg)    
+- [pinout](wirings/nucleo144-F767ZI.dwg)    
 - CPU 216Mhz / SRAM 512KB / EEPROM 0KB / FLASH 2048KB
 - power supply types
     - USB cable (300mA max)
@@ -161,3 +166,5 @@ note: to open dwg [qcad](https://www.qcad.org/en/download) can be used.
     - I/O pins (25mA ; total 120mA)
     - `3.3V` pin (420mA)
 - hardware interrupt on all digital pin
+- 3 x 12bit ADC
+- 2 x 12bit DAC
