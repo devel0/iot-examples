@@ -80,7 +80,7 @@ code arduino/ledblink
     - receive `[upload] Error` even `Verified OK` ; watch at monitor C-A-s and press RESET to retry start program
 - debug
     - using `printf` output go to monitor ( C-S-p `PlatformIO: Serial Monitor` ) ; it goes over usb cable used for programming to stlink connector
-    - through C-S-p `PlatformIO: Start Debugging` ( **currently some trouble about reset** )
+    - through C-S-p `PlatformIO: Start Debugging` ( working for platformio 5.0.4 )
 
 ## stm32duino
 
