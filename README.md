@@ -9,6 +9,7 @@
 * [platformio](#platformio)
   + [examples (mbed)](#examples-mbed)
   + [development](#development-1)
+  + [troubleshoot debug](#troubleshoot-debug)
 * [stm32duino](#stm32duino)
   + [examples](#examples-1)
   + [development](#development-2)
@@ -81,6 +82,34 @@ code arduino/ledblink
 - debug
     - using `printf` output go to monitor ( C-S-p `PlatformIO: Serial Monitor` ) ; it goes over usb cable used for programming to stlink connector
     - through C-S-p `PlatformIO: Start Debugging` ( working for platformio 5.0.4 )
+
+### troubleshoot debug
+
+- do a platformio/cleanup before
+
+- with platformio/upload receive
+
+```
+xPack OpenOCD, x86_64 Open On-Chip Debugger 0.10.0+dev-00378-ge5be992df (2020-06-26-09:27)
+Licensed under GNU GPL v2
+For bug reports, read
+        http://openocd.org/doc/doxygen/bugs.html
+debug_level: 1
+
+srst_only separate srst_nogate srst_open_drain connect_deassert_srst
+
+Error: init mode failed (unable to connect to the target)
+in procedure 'program'
+** OpenOCD init failed **
+shutdown command invoked
+
+*** [upload] Error 1
+```
+
+- solve that by hitting RESET btn until `srst_only separate srst_nogate srst_open_drain connect_deassert_srst` then release and upload goes fine
+
+- hit F5 to debug ( set a breakpoint on an instruction to check )
+
 
 ## stm32duino
 
