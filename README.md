@@ -110,6 +110,7 @@ shutdown command invoked
 
 - hit F5 to debug ( set a breakpoint on an instruction to check )
 
+- if use `DigitalOut` on alternate function pins SWDIO/SWCLK may have problem during reset just after upload ( for example, avoid to use PA13, PA14 on STM32F446RE as DigitalOut )
 
 ## stm32duino
 
