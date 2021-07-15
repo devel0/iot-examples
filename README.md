@@ -79,6 +79,7 @@ code arduino/ledblink
     - receive `conflicted extension arduino` go to vscode extensions and from arduino ext select from dropdown `Disable (Workspace)`
     - receive `Error: init mode failed (unable to connect to the target)` on upload ; solve by hit RESET btn until yellow `srst_only separate srst_nogate srst_open_drain connect_deassert_srst` not appears on terminal
     - receive `[upload] Error` even `Verified OK` ; watch at monitor C-A-s and press RESET to retry start program
+    - receive `Warn : UNEXPECTED idcode: 0x2ba01477 ; Error: expected 1 of 1: 0x1ba01477` ; can set `upload_flags = -c set CPUTAPID 0x2ba01477` on platformio.ini
 - debug
     - using `printf` output go to monitor ( C-S-p `PlatformIO: Serial Monitor` ) ; it goes over usb cable used for programming to stlink connector
     - through C-S-p `PlatformIO: Start Debugging` ( working for platformio 5.0.4 )
@@ -142,7 +143,7 @@ shutdown command invoked
         - then C-S-p `Arduino: Upload` then C-S-p `Arduino: Open Serial Monitor`
     - with active debugger setting `.vscode/launch.json` ( see [hello-world](stm32duino/hello-world/.vscode/launch.json) example ) then press F5
 - troubleshoot
-    - if receive `Send Event AD7MessageEvent` on debug console try to run corresponding `openocd` with arguments given from debug console to test board connection; may you got `Warn : UNEXPECTED idcode: 0x2ba01477` and `Error: expected 1 of 1: 0x1ba01477` that you can fix in `.vscode/launch.json` by setting `"debugServerArgs": "-f interface/stlink-v2.cfg -c \"set CPUTAPID 0x2ba01477\" -f target/stm32f1x.cfg",` ; ( if working with platformio can set `upload_flags = -c set CPUTAPID 0x2ba01477` on platformio.ini )
+    - if receive `Send Event AD7MessageEvent` on debug console try to run corresponding `openocd` with arguments given from debug console to test board connection; may you got `Warn : UNEXPECTED idcode: 0x2ba01477` and `Error: expected 1 of 1: 0x1ba01477` that you can fix in `.vscode/launch.json` by setting `"debugServerArgs": "-f interface/stlink-v2.cfg -c \"set CPUTAPID 0x2ba01477\" -f target/stm32f1x.cfg",`
     - if debugger start but breakpoint still grayed double check `.vscode/arduino.json` and see if `"configuration"` contains `opt=ogstd` that is Optimize for Debug (-g) while default is Optimize for Smallest (-Os default) on `opt=osstd`.
     - board:arduino nano
         - if upload fails check on `.vscode/arduino.json` if `"configuration": "cpu=atmega328old"`
