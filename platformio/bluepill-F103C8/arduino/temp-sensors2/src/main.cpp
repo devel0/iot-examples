@@ -80,7 +80,7 @@ void extTriggerEvt()
 
 void setupPins()
 {
-  pinMode(LED_PIN, OUTPUT);
+  //pinMode(LED_PIN, OUTPUT);
   pinMode(EXT_TRIGGER_PIN, INPUT);
   attachInterrupt(digitalPinToInterrupt(EXT_TRIGGER_PIN), extTriggerEvt, CHANGE);
 }
