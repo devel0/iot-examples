@@ -8,6 +8,7 @@
   + [development](#development)
 * [platformio](#platformio)
   + [examples (mbed)](#examples-mbed)
+  + [examples (arduino)](#examples-arduino)
   + [development](#development-1)
   + [troubleshoot debug](#troubleshoot-debug)
 * [stm32duino](#stm32duino)
@@ -69,6 +70,11 @@ code arduino/ledblink
     - [hello-world](platformio/nucleo-64-F446RE/mbed/hello-world)
 - nucleo-144-F767ZI
     - [hello-world](platformio/nucleo-144-F767ZI/mbed/hello-world)
+
+### examples (arduino)
+
+- bluepill F103C8
+    - [temp-sensors2](platformio/bluepill-F103C8/arduino/temp-sensors2)
 
 ### development
 
