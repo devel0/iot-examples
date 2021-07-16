@@ -79,6 +79,7 @@ code arduino/ledblink
     - receive `conflicted extension arduino` go to vscode extensions and from arduino ext select from dropdown `Disable (Workspace)`
     - receive `Error: init mode failed (unable to connect to the target)` on upload ; solve by hit RESET btn until yellow `srst_only separate srst_nogate srst_open_drain connect_deassert_srst` not appears on terminal
     - receive `[upload] Error` even `Verified OK` ; watch at monitor C-A-s and press RESET to retry start program
+    - receive `Warn : UNEXPECTED idcode: 0x2ba01477 ; Error: expected 1 of 1: 0x1ba01477` ; can set `upload_flags = -c set CPUTAPID 0x2ba01477` on platformio.ini
 - debug
     - using `printf` output go to monitor ( C-S-p `PlatformIO: Serial Monitor` ) ; it goes over usb cable used for programming to stlink connector
     - through C-S-p `PlatformIO: Start Debugging` ( working for platformio 5.0.4 )
