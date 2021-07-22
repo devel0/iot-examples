@@ -212,7 +212,7 @@ void loop()
   if (millis() - freeramTimestamp > FREERAM_UPD_INTERVAL_MS)
   {
     auto freeram = GetMemFree();
-    if (freeram_min == -1 || freeram_min < freeram)
+    if (freeram_min == -1 || freeram < freeram_min)
       freeram_min = freeram;
     freeramTimestamp = millis();
   }
