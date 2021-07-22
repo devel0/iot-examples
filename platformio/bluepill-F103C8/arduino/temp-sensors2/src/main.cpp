@@ -338,6 +338,8 @@ void loop()
           name = "bathroom";
         else if (id == "288aef140500008d")
           name = "lab";
+        else if (id == "2872685a05000031")
+          name = "living-room";
 
         client.printf("%s\"}", name.c_str());
 
