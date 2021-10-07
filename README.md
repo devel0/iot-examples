@@ -75,6 +75,8 @@ code arduino/ledblink
 
 - bluepill F103C8
     - [temp-sensors2](platformio/bluepill-F103C8/arduino/temp-sensors2)
+- ds18b20
+    - [ds18b20](platformio/arduino-nano-v3/ds18b20-nano)
 
 ### development
 
