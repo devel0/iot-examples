@@ -2,7 +2,7 @@
 // ds18b20
 //
 // gnd -> gnd
-// data -> 3v3
+// data -> D2
 //      -> R4.7k -> 3v3 (pullup)
 // vcc -> 3v3
 //
@@ -30,8 +30,8 @@ void printAddress(DeviceAddress deviceAddress)
 }
 
 void setup()
-{
-  Serial.begin(115200);
+{  
+  Serial.begin(9600);
 
   Serial.println("START");
 
@@ -57,7 +57,7 @@ void setup()
 uint8_t sensor1[8] = {0x28, 0x65, 0xE0, 0x5A, 0x05, 0x00, 0x00, 0x1A};
 
 void loop()
-{
+{  
   sensors.requestTemperatures();
 
   float tempC = sensors.getTempCByIndex(0);
