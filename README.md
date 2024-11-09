@@ -1,24 +1,23 @@
 # iot-examples
 
-- [iot-examples](#iot-examples)
-  - [description](#description)
-  - [quickstart](#quickstart)
-  - [arduino](#arduino)
-    - [examples](#examples)
-    - [development](#development)
-  - [platformio](#platformio)
-    - [examples (mbed)](#examples-mbed)
-    - [examples (arduino)](#examples-arduino)
-    - [development](#development-1)
-    - [troubleshoot debug](#troubleshoot-debug)
-  - [stm32duino](#stm32duino)
-    - [examples](#examples-1)
-    - [development](#development-2)
-  - [hardware](#hardware)
-    - [arduino nano V3](#arduino-nano-v3)
-    - [nucleo-64 F446RE](#nucleo-64-f446re)
-    - [nucleo-144 F767ZI](#nucleo-144-f767zi)
-    - [raspberry pi 4](#raspberry-pi-4)
+- [description](#description)
+- [quickstart](#quickstart)
+- [arduino](#arduino)
+  - [examples](#examples)
+  - [development](#development)
+- [platformio](#platformio)
+  - [examples (mbed)](#examples-mbed)
+  - [examples (arduino)](#examples-arduino)
+  - [development](#development-1)
+  - [troubleshoot debug](#troubleshoot-debug)
+- [stm32duino](#stm32duino)
+  - [examples](#examples-1)
+  - [development](#development-2)
+- [hardware](#hardware)
+  - [arduino nano V3](#arduino-nano-v3)
+  - [nucleo-64 F446RE](#nucleo-64-f446re)
+  - [nucleo-144 F767ZI](#nucleo-144-f767zi)
+  - [raspberry pi 4](#raspberry-pi-4)
 
 ## description
 
@@ -163,7 +162,8 @@ note: to open dwg [qcad](https://www.qcad.org/en/download) can be used.
 
 ### arduino nano V3
 
-- [pinout](https://raw.githubusercontent.com/devel0/iot-examples/main/wirings/arduino-nano.svg)
+![pinout](https://raw.githubusercontent.com/devel0/iot-examples/main/wirings/arduino-nano.svg)
+
 - CPU 16Mhz / SRAM 2KB / EEPROM 1KB / FLASH 32KB
 - power supply types
   - USB cable
