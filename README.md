@@ -162,7 +162,7 @@ note: to open drawio [this vscode extension](https://github.com/hediet/vscode-dr
 
 ### arduino nano V3
 
-![pinout](https://raw.githubusercontent.com/devel0/iot-examples/main/wirings/arduino-nano.svg)
+![pinout](https://raw.githubusercontent.com/devel0/iot-examples/main/wirings/arduino-nano-v3.svg)
 
 - CPU 16Mhz / SRAM 2KB / EEPROM 1KB / FLASH 32KB
 - power supply types
