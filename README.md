@@ -158,7 +158,7 @@ shutdown command invoked
 
 ## hardware
 
-note: to open dwg [qcad](https://www.qcad.org/en/download) can be used.
+note: to open drawio [this vscode extension](https://github.com/hediet/vscode-drawio) can be used.
 
 ### arduino nano V3
 
