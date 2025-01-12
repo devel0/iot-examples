@@ -176,7 +176,8 @@ shutdown command invoked
 
 ### nucleo-64 F446RE
 
-- [pinout](https://raw.githubusercontent.com/devel0/iot-examples/main/wirings/nucleo64-F446RE.svg)
+![pinout](https://raw.githubusercontent.com/devel0/iot-examples/main/wirings/nucleo64-F446RE.svg)
+
 - CPU 180Mhz / SRAM 128KB / EEPROM 0KB / FLASH 512KB
 - power supply types
   - USB cable (300mA max)
