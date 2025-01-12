@@ -16,6 +16,7 @@
 - [hardware](#hardware)
   - [arduino nano V3](#arduino-nano-v3)
   - [nucleo-64 F446RE](#nucleo-64-f446re)
+    - [troubleshoot](#troubleshoot)
   - [nucleo-144 F767ZI](#nucleo-144-f767zi)
   - [raspberry pi 4](#raspberry-pi-4)
 
@@ -190,6 +191,27 @@ shutdown command invoked
 - hardware interrupt on all digital pin
 - 3 x 12bit ADC
 - 2 x 12bit DAC
+
+#### troubleshoot
+
+- `libusb_open() failed with LIBUSB_ERROR_ACCESS`
+
+```sh
+apt install stlink-tools
+systemctl restart udev
+```
+
+- create `/etc/udev/rules.d/90-stlink.rules` with content
+
+```sh
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="374b", MODE="0666
+```
+
+then reload udev
+
+```sh
+udevadm control --reload-rules && udevadm trigger
+```
 
 ### nucleo-144 F767ZI
 
